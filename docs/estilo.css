@@ -1,16 +1,57 @@
-body{
+
+body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #289c7f;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.nomeh1 {
+    font-size: 2rem;
+    margin: 2%;
+    text-align: center;
+    color: white;
+    padding-bottom: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+i {
+    font-size: 1.5rem;
+    margin-right: 10px;
 }
 .menuLi{
     list-style: none;
     display: inline;
-    margin: 3% 5% 3% 5%;
+    margin: 2% 5% 2% 5%;
     padding: 1.5%;
+    box-shadow: 5px 5px 5px #000000;
+    background-color: #00ffbf;
 }
-nav{
-    background-color: rgb(231, 238, 133);
-    padding: 0.5%;
-}
-.nomeh1{
-    text-align: center;
+.info{
+    font-size: x-large;  
+    border-style: ridge ;
+    margin: 7%;
 }
